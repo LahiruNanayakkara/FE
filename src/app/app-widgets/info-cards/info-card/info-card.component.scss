@@ -1,0 +1,55 @@
+@import "../../../theme.scss";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content !important;
+  padding: 1rem 1rem;
+  background-color: white;
+  border: 1px solid #EAECEE;
+  border-radius: 10px;
+}
+
+.card-menu {
+  align-self: flex-end;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+/* Style for the card image */
+.card-img-top {
+  box-sizing: border-box;
+  padding: 0 1.5rem;
+  font-size: 36px;
+  width: 10.95rem;
+  height: auto;
+  cursor: pointer;
+  transition: 0.275s all ease-in-out;
+}
+
+.card-img-top:hover {
+  transform: scale(1.08);
+}
+
+.card-body {
+  margin-top: 0.125rem;
+  padding: 0.313rem 0.375rem;
+  width: 12rem;
+  color:$text-default;
+}
+
+.card-title {
+  font-size: 0.925rem;
+  line-height: 1.25;
+  margin: 0.575rem 0;
+  cursor: pointer;
+}
+
+.card-body div{
+  font-size: 0.825rem;
+  color: $font-secondary;
+  margin: 0.175rem 0 0;
+}

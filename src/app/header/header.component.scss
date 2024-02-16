@@ -1,0 +1,33 @@
+.header-container {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.15rem;
+  // border-bottom: 1px solid;
+}
+
+.header-text {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 2rem;
+}
+
+.dropdown-menu {
+  font-size: 0.8rem;
+  border-radius: 0.15rem;
+  padding: 0.5rem 0;
+}
+
+.go-to-profile {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-nav-icon {
+  font-size: 1.425rem;
+}
+

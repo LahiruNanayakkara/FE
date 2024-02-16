@@ -1,0 +1,137 @@
+@import "../theme.scss";
+
+.sidenav-logo {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.127);
+}
+
+.logo-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $text-white;
+  background-color: transparent;
+  border: none;
+}
+
+.sidenav {
+  box-sizing: border-box;
+  min-width: 240px;
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  color: $text-light-default;
+  background-color: $bg-dark;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 100vh;
+}
+
+.sidenav-nav {
+  flex-grow: 1;
+  list-style: none;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-top: 2rem;
+  padding-left: 0;
+}
+
+a.sidenav-nav-link {
+  padding: 0.625rem 1.625rem;
+  color: $text-light-default;
+  position: relative;
+  display: block;
+  font-size: 0.875rem;
+  text-decoration: none;
+}
+
+a.sidenav-1.sidenav-nav-link:hover {
+  color: $text-white;
+  background-color: $hover-bg-dark;
+}
+
+.active {
+  color: $text-white !important;
+  background-color: $hover-bg-dark;
+}
+
+// .active .sidenav-link-icon {
+//   transform: scale(1.375);
+// }
+
+.sidenav-link-icon {
+  font-size: 0.9rem;
+  width: 1.72rem;
+}
+
+.footer-sidenav-nav {
+  justify-self: flex-end;
+  display: flex;
+  padding: 1.5rem 1.625rem;
+}
+
+.footer-sidenav-nav .sidenav-link-text{
+  font-size: 0.8rem;
+}
+
+a.sidenav-2.sidenav-nav-link {
+  display: inline-flex;
+  padding: 0;
+  margin-right: 0.8rem;
+}
+
+a.sidenav-2.sidenav-nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+// .sidenav-nav {
+//   list-style: none;
+//   padding: 0;
+//   margin: 0;
+// }
+
+// .logo-container {
+//   display: flex;
+//   align-items: center;
+//   padding: 0.983rem 0.938rem 0 0.983rem;
+//   width: 100%;
+
+//   .logo {
+//     background-color: $bg-white;
+//     text-align: center;
+//     width: 3rem;
+//     min-width: 3rem;
+//     font-size: 1.5rem;
+//     font-weight: 800;
+//     line-height: 1.75;
+//     cursor: pointer;
+//     border: none;
+//     border-radius: 0.313rem;
+//   }
+
+
+//   .logo-text {
+//     margin-left: 1rem;
+//     font-size: 1.5rem;
+//     color: $text-light-default;
+//   }
+
+
+//   .btn-close {
+//     margin-left: auto;
+//     cursor: pointer;
+//     width: 2rem;
+//     height: 2rem;
+//     background-color: transparent;
+//     border: none;
+//     font-weight: 400;
+//     line-height: 1;
+
+//     .fa-times {
+//       color: $text-white;
+//       font-size: 1.5rem;
+//     }
+//   }
+// }

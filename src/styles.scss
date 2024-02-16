@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+@import "app/theme.scss";
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.07s ease-out;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.875rem;
+}
